@@ -12,25 +12,6 @@ A modern, full-stack web application built with SvelteKit frontend and FastAPI b
 - **Search & Filter**: Find tasks quickly with search functionality
 - **Modern Stack**: FastAPI backend + SvelteKit frontend
 
-## Project Structure
-
-\`\`\`
-.
-├── backend/                 # Python FastAPI backend
-│   ├── main.py             # Main application and routes
-│   ├── models.py           # SQLAlchemy database models
-│   ├── schemas.py          # Pydantic schemas
-│   ├── auth.py             # JWT authentication logic
-│   ├── config.py           # Configuration settings
-│   ├── database.py         # Database connection
-│   └── requirements.txt    # Python dependencies
-├── src/                    # SvelteKit frontend
-│   ├── routes/            # Page routes
-│   ├── lib/               # Reusable components and utilities
-│   └── app.css            # Global styles
-└── README.md
-\`\`\`
-
 ## Getting Started
 
 ### Prerequisites
@@ -148,10 +129,6 @@ A modern, full-stack web application built with SvelteKit frontend and FastAPI b
 - Use reverse proxy (Nginx) for load balancing
 - Deploy frontend to CDN (Vercel, Netlify)
 - Deploy backend to cloud (AWS, GCP, Heroku)
-
-## Deployment
-
-See `DEPLOYMENT.md` for comprehensive deployment guide with Docker, CI/CD, and scaling strategies.
 
 ## License
 
